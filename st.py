@@ -1,5 +1,5 @@
 from modules import check
-check.dependency()
+check.dependency(8502472875)
 check.check_started()
 from colorama import Back,Fore,Style
 from modules import banner,control
@@ -19,3 +19,4 @@ while True:
     except:
         control.kill_php_proc()
         exit()
+        
